@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--[if lt IE 9]>
+          <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+<title>南水北调工程的意义绝不止于“调水”</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <style type="text/css">
+    *{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+.wrap{
+    height: 800px;
+    position: relative;
+    margin:-1% auto;
+    text-align: center;
+    z-index: 3;
+}
+
+.item{
+    color:white;
+    font-size: 10%;
+    position: absolute;
+    opacity: 0;
+    transition: all .5s;
+}
+.warp .btn{
+    position: absolute;
+    margin-top: -15px;
+    margin-left:3%;
+    margin-right:3%;
+    border:0px;
+    background-color: transparent;
+    z-index: 100;
+    opacity: 0.3;
+    color: blue;
+    font-size: 160%;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#next{
+    right: 0px;
+}
+#pre{
+    left: 0px;
+}
+.item.active{
+    z-index: 10;
+    opacity: 1;
+}
+img{
+    z-index: 0;
+}
+.pointer{
+    list-style: none;
+    padding-left: 0px;
+    position: relative;
+    margin-left:34%;
+    padding-top:25%;
+    z-index: 1000;
+}
+.wrap img{
+    height: 100%;
+    width: 1170px;
+    z-index: 0;
+
+
+}
+.poin{
+    height: 20%;
+    width:6%;
+    border-radius:0%;
+    border-style: solid;
+    border-color: yellowgreen;
+    float: left;
+    margin-top: 190px;
+    margin-right:4%;
+    cursor: pointer;
+}
+.poin.active{
+    border-color:orangered;
+}
+
+.listone>ul>li{
+    list-style: none;
+    display: inline-block;
+}
+.listtwo>ul>li{
+    list-style: none;
+    display: inline-block;
+}
+
+img{
+    height: 290px;
+    width: 430px;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.wrap img{
+    transform: scale(1);
+}
+ul{
+            list-style: none;
+        }
+        img{
+            display: block;
+        }
+        a{
+            text-decoration: none;
+            color:  #646464;
+        }
+        
+        p{
+            padding-left: 15px;
+        }
+
+        .line span{
+            display: block;
+            width: 80%;
+            height: 1px;
+            margin: 0 auto;
+            margin-bottom: -10px;
+            background: grey;
+        }
+
+
+        .content{
+            letter-spacing:.2em;
+            
+        }
+        .content .content1{
+            border-left: 1px solid gray;
+            padding-left: 7px;
+        }
+        #content .content1 h1{
+            padding-top: 10px;
+            margin-top: 10px;
+            margin-left: 10px;
+            color: rgb(5, 5, 5)	;
+            font-size: 30px;
+        }
+        #content .content1 p{
+            margin-top: 10px;
+            margin-left: 10px;
+            color: #000;
+            text-indent: 2em;
+            font-size: 18px;
+            line-height: 1.4em;
+        }
+        #content .content1 span{
+            float: left;
+            display: block;
+            width: 6px;height: 24px;
+            background: 	#C7C7E2;
+            margin-top: 15px;
+        }
+        #content .content1 img{
+            height: 500px;
+        }
+        #content .content1 .meet{
+            margin-right: 10px;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            float: right;
+            
+        }
+        #content .content1 .meet i{
+            font-size: 15px;
+            letter-spacing:.1em;
+            padding-left: 40px;
+        }
+
+</style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="首页.html">首页</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="西线工程.html">西线 <span class="sr-only">(current)</span></a></li>
+              <li><a href="中线工程.html">中线</a></li>
+              <li><a href="东线工程.html">东线</a></li>
+              <li><a href="意义.html">意义</a></li>
+              <li><a href="留言板.html">留言板</a></li>
+              <li><a href="ending.html">报告</a></li>
+        
+            </ul>
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">搜索</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">更多 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="登录.html">登录</a></li>
+                  <li><a href="注册.html">注册</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="首页.html">退出</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+
+
+
+
+<div id="content" class="container">
+<div class="content1">
+ <h1 align="center">南水北调工程的意义绝不止于“调水”</h1>
+ <div class="text-muted" align="center">时间：2014-10-24 11:21&nbsp;&nbsp;来源：  中国环境报&nbsp;&nbsp;作者：姚伊乐&nbsp;&nbsp;&nbsp;&nbsp;
+  </div><script language="JavaScript">isCopy = true;</script>
+        <style>.zw p{text-indent:0}</style>
+            <div class="zw mt20" style="font-size: 15px;">
+                 <p>
+秋水长天一色，碧波云影徘徊。站在南水北调中线源头丹江口水库岸上看去，眼前一幅壮观景象。</p>
+
+<p>&nbsp;</p>
+
+<p>很快，这泓碧水就将沿着千里明渠一路向北，滋润河南、河北、北京、天津4省市。</p>
+
+<p>&nbsp;</p>
+
+<p>南水北调，这一迄今为止世界上最大的跨流域生态调水工程，历经半个世纪，终于由构想变成现实。</p>
+
+<p>&nbsp;</p>
+
+<p>然而，南水北调工程的意义绝不止于“调水”。据记者观察，为了保证水质，中线工程引水渠沿线同时形成了一条巨大的绿色长廊；不仅如此，自汉江发源地秦岭地区，直到鄂豫交界处的丹江口库区，汉江流域及周边形成了一个面积达9.5万平方公里的巨大生态区。</p>
+
+<p>&nbsp;</p>
+
+<p>在这个相当于国土面积1%的区域内，由于南水北调工程的带动和促进，城乡环境基础设施基本完善，地方发展方式迅速转变，工业、农业的清洁生产和生态化水平大大提高。尤为值得一提的是，在记者实地采访的10余个县域内，基层群众的环保意识也远远高于其他地区。</p>
+
+<p>&nbsp;</p>
+
+<p>如果说南水北调东线工程推动了山东、江苏两省区域环保格局变化，形成了较发达地区的环保经验；那么，中线工程则是较落后地区的生态实践，其根本意义在于，利用我国制度优势，大范围探索经济发展与环境保护并重、并行、互相促进的模式，及这种模式的可行性和长期效果。</p>
+
+<p>&nbsp;</p>
+
+<p>虽然在这一探索中，还有不少问题有待进一步解决、效果还有待时间检验、实践仍存在一定的风险，但至少目前看来是比较成功的。</p>
+
+<p>&nbsp;</p>
+
+
+<p><strong>变化一： 环境基础设施得到进一步完善</strong></p>
+
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>开工初期，水源区仅有5座污水处理厂;到“十二五”末，这里将新建174座污水处理厂，基本涵盖县级以上城市和重点乡镇。9月中旬，记者与南水北调办公室一行从北京赴陕西，沿汉江一路由汉中市、安康市、商洛市、十堰市最终到达河南省淅川县陶岔渠首，途经南郑、紫阳、淅川、西峡等10个县（区），实地见证了9.5万平方公里区域内水质保护的点滴。</p>
+
+<p>&nbsp;</p>
+
+<p>中线水源区流域包括河南南阳、洛阳、三门峡，湖北十堰、神农架，陕西安康、汉中、商洛共3省8市（区）43个县，其中国家级扶贫开发重点县29个、省级扶贫重点县8个。</p>
+
+<p>&nbsp;</p>
+
+<p>这一区域经济社会发展水平远低于全国平均水平，是国家财政重点补助和扶贫开发的重点地区之一，也是中线水源保护的重点区域。尤其是陕西省的安康、汉中和商洛3市，主城区基本沿汉江或其支流而建，更是汉江上游水质保护的重中之重。</p>
+
+<p>&nbsp;</p>
+<p>“南水北调中线工程开工初期，水源区仅有5座污水处理厂，污水处理能力为每天24万立方米，但43个县（市、区）城区每天污水排放总量就达到了111万立方米。”南水北调办公室副主任于幼军说，由于污水处理能力不足，大量城镇污水直排河道，最终汇入了丹江口水库。</p>
+<p>&nbsp;</p>
+<p>“十一五”前，中线水源区仅十堰市有1座处理能力为450吨/天的垃圾填埋场，其他各市、县和乡镇都没有垃圾处理设施，生活垃圾乱堆乱放现象较为普遍，其中很大一部分就堆放在汉江、丹江两岸及丹江口水库周边。</p>
+<p>&nbsp;</p>
+<p>为改变这一局面，在“十一五”和“十二五”期间，国家在中线水源区安排新建污水处理厂174座，新增污水处理能力152万立方米/日，新建垃圾处理场98座，新增垃圾处理能力8500吨/日。</p>
+<p>&nbsp;</p>
+<p>“这些项目总投资达78.5亿元，基本覆盖了水源区所有县级以上城市和重点乡镇。”南水北调办公室环保司副司长范治晖说，目前县城以上污水处理厂已全面建成，重点镇污水处理厂全面开工，改变了水源区污水直排和垃圾乱扔乱倒现象，对保护水质起到了关键作用。</p>
+<p>&nbsp;</p>
+<p>陕西省紫阳县污水处理厂就是新建项目之一。紫阳县城依山临江，是一座陡峭的山城。污水处理厂建设在紫阳隧道东出口外侧，14亩的狭小空间担负着1平方公里内6万人的生活污水处理任务，目前日处理能力为8000立方米，出水水质达到了一级B标准。</p>
+<p>&nbsp;</p>
+<p>陕陕西省安康市副市长梁志坚说，目前安康市21个县城以上污水、垃圾处理项目全部建成并投入运行或试运行，17个镇级污水垃圾处理项目已在建。</p>
+<p>&nbsp;</p>
+<p>由于经济落后，汉江流域绝大多数农村垃圾、污水随意排放的情况十分普遍。不过，如今已经变了样。</p>
+<p>&nbsp;</p>
+<p>街道整洁，小楼林立；农户前院后庭整齐干净，广场喷泉激扬随歌起舞。在陕西省汉中市高土坝村，眼前的移民安置社区让记者眼前一亮。</p>
+<p>&nbsp;</p>
+<p>“社区规模越来越大，日常的垃圾、污水处理成了问题。我们探索出垃圾、生活污水集中无害化处置的方法。污水先用三格式化粪池处理，经由人工湿地二次处理后，排放的水可以用来养鱼、灌溉农田或苗木。”高土坝村党支部书记王琨告诉记者，即便是独居户的生活污水也不能乱排乱倒，要经过处理后才能排放。</p>
+<p>&nbsp;</p>
+<p>而在湖北省十堰市神定河上游沿线，对农家乐休闲旅游区的污水治理也颇有特色。</p>
+<p>&nbsp;</p>
+<p>“我们引进使用了小型一体化治污设备，加上小型人工湿地治理，基本上解决了不同规模的农家乐污水排放问题。”十堰市茅箭区南水北调办主任王传润介绍说，处理能力为5立方米/日的设备目前安装了15台、10立方米/日的1台，每立方米处理成本为0.7元左右，设备费用则根据成本大小由市、区以及农家乐业主共同承担。</p>
+<p>&nbsp;</p>
+<p>除了神定河，穿越十堰市的河流还有泗河、犟河、官山河、剑河。由于历史原因，这5条河流水质大都为Ⅴ类或劣Ⅴ类。十堰市下大力气进行了整治，到目前为止，五河治理工程累计完成投资10.38亿元，完成管网建设557公里，关停污染企业20家、整治排污口497个，完成河道清淤68公里。</p>
+<p>&nbsp;</p>
+<p>记者进入到位于十堰市茅箭区武当路车站沟的一处施工中的下水道内，看到工人正在改建雨污分流管道。</p>
+<p>&nbsp;</p>
+<p>“几个月前清污的时候臭得很，几十年淤积的脏东西把这里堵了一大半。”正在作业的年轻小工秦风立告诉记者，他已经在这里干了一段时间，每天工作10小时。</p>
+<p>&nbsp;</p>
+
+<p>“几十年没有解决的问题，不到两年就解决了。”十堰市副市长沈学强说，目前这5条河流水质已明显改善，如官山河水质从原来的Ⅴ类提高到Ⅲ类，其他河流主要污染物浓度较2012年下降了50%以上。</p>
+<p>&nbsp;</p>
+
+<p>“不黑、不臭、水质明显改善。”范治晖说，这几条河流已经实现了阶段性治理目标。</p>
+<p>&nbsp;</p>
+
+
+
+
+<p ><strong>变化二： 地方发展方式实现强力转型</strong></p>
+
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+<p>借力南水北调工程，源区上千家重污染企业被关停取缔；取缔大规模网箱养殖，渔民上岸转向发展生态农业自2006年以来，中线水源区各地已关停规模以上企业超过500家，同时还依法取缔小矿山、小冶炼、小造纸、小水泥等“十五小”企业千余家。</p>
+
+<p>&nbsp;</p>
+
+<p>“各个地方都做出了较大牺牲，地方发展方式正处于深度转变的阵痛期。”范治晖说。</p>
+
+<p>&nbsp;</p>
+
+<p>长期以来，中线水源区存在着大量的矿物采选及冶炼、化工、汽车电镀、黄姜皂素、特色中草药加工等企业，这些企业在生产过程中产生的大部分废水和废渣未经处理就直接排放，污染比较严重。在中线工程开工后，按照两期规划，地方政府对这些重点排污企业进行了技术改造或关停搬迁。</p>
+
+<p>&nbsp;</p>
+
+<p>黄姜种植和加工业是中线水源区的特色产业，门槛低、见效快，是地方经济发展的重要支柱，也是当地群众脱贫致富的重要途径。但是，黄姜加工传统工艺用水量大，排放的废水污染物浓度高，化学需氧量浓度往往达到每升上万毫克，是一般生活污水的几百甚至上千倍，以前这些废水大部分直排河道，使得水体又黑又臭。</p>
+
+<p>&nbsp;</p>
+<p>“1吨黄姜只能形成千分之六的皂素，以往提炼1吨黄姜皂素就需要20吨硫酸，这意味着70%的水、15%的淀粉和纤维素只能当作废弃物直排汉江。”中国环境科学研究院博士潘涔轩说。</p>
+<p>&nbsp;</p>
+<p>范治晖介绍说，为解决这个问题，国家和地方对黄姜加工产业进行了系统治理。通过出台产业结构调整指导目录和黄姜行业废水排放标准，200多家排放不能达标的中小黄姜加工企业被关停。此外科技部还加大投入，在仅剩几家规模较大且符合产业政策的企业中开展废水治理科技攻关。</p>
+<p>&nbsp;</p>
+<p>“2014年，年产300吨的黄姜皂素生产项目通过陕西省环保厅验收。”在陕西省山阳县金川封幸化工有限公司的生产车间内，潘涔轩说，目前生产1吨皂素只需两吨硫酸，还能循环使用，主要污染物化学需氧量减排9成以上，实现了达标排放。</p>
+<p>&nbsp;</p>
+<p>同时，废弃物加工生产的有机肥可还田继续种植黄姜或茶树，回收的淀粉加工后可做饲料。</p>
+<p>&nbsp;</p>
+<p>除了黄姜皂素企业外，有更多的企业被关停或者升级。</p>
+<p>&nbsp;</p>
+<p>在河南省淅川县，淅川县丰源氯碱公司、南阳泰龙纸业等350家化工、造纸、冶炼企业被关停并转；曾经的排污大户淅水集团则斥资5亿元完成转型升级；淅铝集团关闭了高耗能、高污染的矿热炉和电解铝生产线，上马了彩铝板等一批高科技环保生产线，成功实现了转型。</p>
+<p>&nbsp;</p>
+<p>财政收入曾一度下滑4成的淅川县，借力南水北调工程完成了生产方式转变的“第一季”。</p>
+<p>&nbsp;</p>
+<p>但对9成以上面积为丹江口水库核心水源区的淅川县来说，不仅仅是“岸上”的产业要转变，库区原来的渔民也要转变生产方式——上岸。除了移民之外，这或许是南水北调东线、中线共同遇到的、最为痛苦的环节。</p>
+<p>&nbsp;</p>
+<p>库区居民靠水吃水。过去的数年间，在当地政府扶植下，网箱养殖已成为不少乡镇居民的主要收入来源。在淅川县马蹬镇关防村，一处废弃的院落内，堆积如山的网箱足以说明此前这里养殖业的兴旺。</p>
+<p>&nbsp;</p>
+<p>“我家有20多个网箱，一年能挣30多万元吧。”46岁的闫朝建算是中等养殖户，他告诉记者，今年5月，网箱被取缔，每个网箱政府补偿1200元，不到成本的3成。</p>
+<p>&nbsp;</p>
+<p>关防村不到200户人家，每家平均4口人，却只能分到不足1亩薄地，出路只有养鱼。但养鱼前期投资大，取缔的补偿款又少，“刚开始心里很别扭，影响到生活了。”闫朝建说。</p>
+<p>&nbsp;</p>
+<p>唐富军则是当地的头号养殖户，取缔网箱养殖前已有80多个网箱。“每个网箱补贴1200元，唐富军要亏损24万多元，亏得太多了。” 马蹬镇工作人员齐年柱告诉记者，当时找唐富军做工作很难，“总躲起来不见”。不过，最终唐富军还是想通了，转行开始发展旅游服务业。</p>
+<p>&nbsp;</p>
+<p>“仓房镇党子口村的刘明瑞有280多个网箱，香花镇的刘德美不但有网箱，还建了两座冷库，香花镇的王太政从10个网箱发展到现在的近300箱……”淅川县水产局办公室主任刘德中扳着指头一口气数了十几个大户，“但几个月前全都默默拆除了网箱，不讲代价，不计得失。”</p>
+<p>&nbsp;</p>
+<p>记者获悉，淅川全县总计网箱有41729箱，截至目前已经清理37528箱，剩鱼集中暂存在其余的几千箱里。</p>
+<p>&nbsp;</p>
+<p>“渔民转型很难。”齐年柱说，当地政府出台了10条扶持性政策帮助渔民转产转业，包括贴息信贷、税收优惠、加强转产培训等。</p>
+<p>&nbsp;</p>
+<p>实际上，淅川县近两年来已经较为深入地探索了生态产业发展路径。茶叶、金银花、湖桑、玫瑰、核桃等既能保护生态、经济效益又高的作物，通过“公司+基地+农户”和“合作社+基地+农户”等方式，已经蓬勃发展了起来。</p>
+<p>&nbsp;</p>
+<p>淅川县工业、农业的这次大变身，被当地人称之为“生死转型”。</p>
+<p>&nbsp;</p>
+<p>这样的“生死转型”同样发生在水源区内其他地区。比如，在河南省西峡县，中药制药、猕猴桃、山茱萸、香菇等特色工业、农业产业近年来已经形成品牌，成为当地的支柱产业。</p>
+<p>&nbsp;</p>
+<p ><strong>变化三： 建设千里生态廊道守护干渠</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>除了沿丹江口水库建设环库生态廊道外，还将沿着输水总干渠建设千里生态廊道，确保水质安全在大雨中，站在汉江或其支流岸边，但见浩荡洪水浑浊一片。</p>
+
+<p>&nbsp;</p>
+
+<p>“河流10里水自清。”范治晖说，山洪中夹带的泥沙虽然对库区水质没有影响，但也说明秦巴山区水土流失现状的严重。</p>
+
+<p>&nbsp;</p>
+
+
+<p>据统计，中线工程开工前，水土流失面积达3.67万平方公里，约占水源区总面积的38.6%。水土流失不但使河道和水库淤积，而且还将大量的农药、化肥等污染物带入河道污染水质。</p>
+
+<p>&nbsp;</p>
+
+<p>为有效遏制水源区水土流失，国家规划安排投资近60亿元，计划用10年时间完成两万平方公里水土流失治理任务（占水源区水土流失总面积的56.1%），年均减少土壤侵蚀0.6亿吨。目前，已完成治理面积1.7万平方公里，占计划治理任务的82.5%。</p>
+
+<p>&nbsp;</p>
+
+<p>河南省淅川县发展绿色种植业，就同时兼具水土保持、荒山绿化和带动农民致富的效果；陕西省采取综合措施，统筹种植业结构调整、生态移民与水土流失治理，逐步将依赖坡耕地生产的农民搬出深山，从根本上恢复山区植被。</p>
+
+<p>&nbsp;</p>
+
+<p>此外，丹江口库区人多地少，“七山二水一分田”的土地利用特征明显。据不完全统计，仅库周1公里范围内就有居住人口29万、耕地36.7万亩，每年约有2.6万吨农药、化肥进入丹江口水库，直接影响水质安全。</p>
+
+<p>&nbsp;</p>
+<p>“为治理库周面源污染、阻隔污染物进入水库，我们提出要建设环库生态隔离带。”于幼军告诉记者，“十二五”期间的目标是在库周1公里范围内形成环库生态屏障，主要措施包括人工造林、森林抚育、封山育林等，还拟将库周1公里范围内的36.7万亩耕地全部纳入国家新一轮的退耕还林计划，同时开展农村面源污染综合整治。</p>
+<p>&nbsp;</p>
+<p>而在“十三五”期间，国家拟再将生态隔离带范围向外延伸3公里，从根本上解决库周农业面源污染问题，为整个水源区开展面源污染防治积累经验。</p>
+<p>&nbsp;</p>
+<p>“河南省已经建成3.3万亩生态带，完成现阶段工作计划的近9成。”河南省南水北调办环境移民处处长王家永告诉记者。</p>
+<p>&nbsp;</p>
+<p>除了库区周围及流域环境保护，输水过程中的水质保护也至关重要。</p>
+<p>&nbsp;</p>
+<p>中线输水线路全长1432公里，其中明渠段1196公里、暗涵236公里，明渠全部与周边水系立交，不与地表水发生水体交换，两侧地表水对总干渠水质不会造成污染。</p>
+<p>&nbsp;</p>
+<p>“输水过程中产生的水质污染风险主要来自3个方面。”于幼军介绍说，一是部分高于渠道运行水位的地下水如果被污染，可能渗入总干渠带来的污染风险；二是有毒有害危险化学品运输途中，在穿越总干渠桥梁时可能突发交通事故带来的污染风险；三是输水沿线大气污染物沉降带来的污染风险。</p>
+<p>&nbsp;</p>
+<p>为防范上述污染风险，南水北调办公室会同环境保护部等各部委，划定了总干渠两侧水源保护区，严格保护区内环境监管、严控新建项目等。河南省仅在2013年就在总干渠两侧保护区范围内拒批新上建设项目400多个。</p>
+<p>&nbsp;</p>
+<p>此外，环境保护部还会同南水北调办公室加大了对总干渠两侧水源保护区执法检查的力度。同时，开展了总干渠两侧内排段地下水现状调查、防范地下水污染风险，并做好应对突发事件的准备。</p>
+<p>&nbsp;</p>
+<p>更大规模的保护，则是建设中线输水总干渠两侧生态带，形成千里生态廊道。</p>
+<p>&nbsp;</p>
+<p>“建设生态廊道，一方面可以促进总干渠两侧种养殖业结构调整，减少农药、化肥使用和畜禽粪便排放，外迁部分企业减少点源污染物排放；另一方面还可以充分发挥植物的生态作用，阻隔和分解部分污染物。”范治晖说。</p>
+<p>&nbsp;</p>
+<p>目前生态廊道建设已经具有相当规模。</p>
+<p>&nbsp;</p>
+<p>“淅川段防护林建设规划已经开始实施，两侧将形成100米宽的景观生态廊道。”淅川县县长赵鹏介绍说，通过引进林业企业，与当地种植户和农民合作，生态廊道不仅能确保输水干渠水质安全，还可以成为南水北调观光旅游带以及城区居民休闲场所，并产生一定的长期经济效益。</p>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<div class="wrap">
+    <ul class="list">
+        <li class="item active"><a href="#"><img  src="image\1.jpg"></a></li>
+        <li class="item"><a href="#"><img  src="image\2.jpg"></a></li>
+        <li class="item"><a href="#"><img  src="image\3.jpg"></a></li>
+        <li class="item"><a href="#"><img  src="image\4.jpg"></a></li>
+        <li class="item"><a href="#"><img  src="image\5.jpg"></a></li>
+        <li class="item"><a href="#"><img  src="image\6.jpg"></a></li>
+    </ul>
+    <ul class="pointer">
+        <li class="poin active" data-index="0"></li>
+        <li class="poin" data-index="1"></li>
+        <li class="poin" data-index="2"></li>
+        <li class="poin" data-index="3"></li>
+        <li class="poin" data-index="4"></li>
+    </ul>
+    <button class="btn" id="next">></button>
+    <button class="btn" id="pre"><</button>
+</div>
+<script>
+
+    var items=document.getElementsByClassName("item");
+    var poins=document.getElementsByClassName("poin");
+    var preBtn=document.getElementById("pre");
+    var nextBtn=document.getElementById("next");
+    var index=0;
+    var clearAtt=function() {
+        for(i=0;i<items.length;i++)
+        {
+            items[i].className="item";
+        }
+        for(i=0;i<poins.length;i++)
+        {
+            poins[i].className="poin";
+        }
+    }
+    var goIndex= function() {
+        clearAtt();
+        items[index].className="item active";
+        poins[index].className="poin active";
+    }
+    var goNext=function () {
+        if(index<4){
+            index++;
+        }
+        else{
+            index=0;
+        }
+        goIndex();
+
+    }
+    var goPre=function () {
+        if(index==0){
+            index=4;
+        }
+        else{
+            index--;
+        }
+        goIndex();
+    }
+    nextBtn.addEventListener("click",function () {
+        goNext();
+    })
+    preBtn.addEventListener("click",function () {
+        goPre();
+    })
+    for(var i=0;i<poins.length;i++)
+    {
+        poins[i].addEventListener("click",function () {
+            var poinIndex=this.getAttribute("data-index");
+            index = poinIndex;
+            goIndex();
+            time=0;
+        })
+    }
+    setInterval(
+        function () {
+            goNext();
+        },1500)
+</script>
+<div id="box">
+    <pre>
+          主办：南水北调工程管理司 设计制作/维护管理：陈涵
+          地址：重庆交通大学科学城校区
+          政府网站标识码：*********
+    </pre>
+</body>
+</html>

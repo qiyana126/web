@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <title>留言板</title>
+    
+    <style>
+        body{
+            background: url("../img/6.png");
+            animation-name:myfirst;
+            animation-duration:12s;
+          
+            animation-delay:2s;
+           
+            animation-iteration-count:infinite;
+          
+            animation-play-state:running;
+            
+        }
+        a{
+            color: white;
+        }
+        a:link{
+            color: white;
+        }
+        @keyframes myfirst
+        {
+            0%   {background:url(".png");}
+            34%  {background:url(".png");}
+            67%  {background:url(".png");}
+            100% {background:url(".png");}
+        }
+       textarea{
+           height: 400px;
+           width: 700px;
+           margin-left: 20%;
+           margin-top: 6%;
+           opacity: 0.6;
+           border:0;
+           box-shadow: 0 17px 18px;
+       }
+        h3{
+            text-align: center;
+            color: #000;
+        }
+        button{
+            margin-left: 50%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="首页.html">首页</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="西线工程.html">西线 <span class="sr-only">(current)</span></a></li>
+              <li><a href="中线工程.html">中线</a></li>
+              <li><a href="东线工程.html">东线</a></li>
+              <li><a href="意义.html">意义</a></li>
+              <li><a href="留言板.html">留言板</a></li>
+              <li><a href="ending.html">报告</a></li>
+        
+            </ul>
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">更多 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="登录.html">登录</a></li>
+                  <li><a href="注册.html">注册</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="首页.html">退出</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+<div class="container">
+    <h3>留言板</h3>
+    <textarea>
+        快来写点什么东西吧！
+    </textarea>
+
+                <div >
+                    <button type="submit" class="btn btn-success" name="submit"><a href="index.html">提交</a></button>
+                </div>
+
+
+</div>
+<div id="box">
+  <pre>
+          主办：南水北调工程管理司 设计制作/维护管理：陈涵
+              地址：重庆交通大学科学城校区
+              政府网站标识码：*********
+  </pre>
+</body>
+</html>
